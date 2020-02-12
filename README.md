@@ -3,6 +3,8 @@ A little python code to generate random user data to test systems.
 
 It generates data according to spanish stuff (phone, id card, names, etc).
 
+It works only in Python 3
+
 ## Code example
 
 To generate 10 users with fields Name, Age and Phone:<br/>
