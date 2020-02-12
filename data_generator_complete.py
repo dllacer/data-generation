@@ -5,7 +5,7 @@ import csv
 from random import randrange
 
 '''
-Author: David Llacer (dllacer@sfy.com)
+Author: David Llacer
 This python script generates random data and saves it in a csv file.
 You can specify which data it generates!
 It works for spanish data only. You can change the locale of
