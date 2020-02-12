@@ -19,7 +19,7 @@ def parse_args():
 	parser.add_argument("--filename", "-f", action='store', type=str, help='name of the csv file you are going to generate')
 	parser.add_argument("--rows_num", "-r",action="store", type=int, help='number of rows you want to generate')
 	parser.add_argument("--quote", "-q", action="store_true", default=False, help='quotes every field')
-	parser.add_argument("--dummie", action="store_true", default=False, help='does nothing')
+	parser.add_argument("--dummy", action="store_true", default=False, help='does nothing')
 	parser.add_argument("--name", "-n",action="store_true", default=False, help='generates names')
 	parser.add_argument("--lastname", "-l", action="store_true", default=False, help='generates lastnames')
 	parser.add_argument("--nameandlastname", "-ln", action="store_true", default=False, help='generates names and surname')
